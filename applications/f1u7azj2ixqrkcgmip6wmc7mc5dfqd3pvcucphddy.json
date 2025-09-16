@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1u7azj2ixqrkcgmip6wmc7mc5dfqd3pvcucphddy",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "Digital Earth Africa; Northern California Earthquake Data Center",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://docs.digitalearthafrica.org/en/latest/data_specs/NDVI_Anomaly_specs.html; https://ncedc.org/db/cloud.html",
+    "Social Media": "Emily",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Sunteam is our organization's name. We can prepare data and make it stored in filecoin network.\nDigital Earth Africa’s Monthly NDVI Anomaly service provides estimate of vegetation condition. The NDVI anomaly service is effective for understanding the extent, intensity and impact of a drought.\nThis dataset contains various types of digital data relating to earthquakes in central and northern California. Time series data come from broadband, short period, and strong motion seismic sensors, GPS, and other geophysical sensors.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Monthly Normalised Difference Vegetation Index (NDVI) Anomaly\nSeismic waveform data (miniSEED format), metadata (FDSNStationXML format) and earthquake catalog (CSV & Hypoinverse formats)",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Our team has learned about how to cut data into car file and how to transfer data to sps. We mainly use curio and lotus.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://deafrica-services/ndvi_anomaly/\ns3://deafrica-services-inventory/\ns3://ncedc-pds/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03615571-Shanghai\nf03614020-Gansu\nf03251993-Ningbo\nf02825282-Hongkong\nf03408862-India\nthe list will be updated",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "246.9TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "256TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-09-16 07:19:51.222572291 UTC",
+    "Validated By": "Conor15",
+    "Active": true,
+    "Updated At": "2025-09-16 07:19:51.222568620 UTC",
+    "Active Request ID": "398ceb97-0dd4-4cbc-a206-392777ad9766",
+    "On Chain Address": "f1u7azj2ixqrkcgmip6wmc7mc5dfqd3pvcucphddy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "398ceb97-0dd4-4cbc-a206-392777ad9766",
+      "Request Type": "First",
+      "Created At": "2025-09-12 04:55:40.746909311 UTC",
+      "Updated At": "2025-09-12 04:55:40.746910693 UTC",
+      "Active": false,
+      "Allocation Amount": "112589990684262 B",
+      "Signers": [
+        {
+          "Github Username": "Conor15",
+          "Signing Address": "f1u6pukitc37mcot546mtf5bmxml3bezve3vwiqdq",
+          "Created At": "2025-09-16 07:19:47.636000000 UTC",
+          "Message CID": "bafy2bzacedvdimcyzdb6opp5oiwbmjmyd6f2ce5yxebuqcgwobdbs6b5lgtay"
+        }
+      ]
+    }
+  ]
+}
