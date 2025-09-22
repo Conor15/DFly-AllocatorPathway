@@ -35,11 +35,11 @@
     "Weekly Allocation": "256TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-22 09:42:24.698262631 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-22 09:45:06.501377270 UTC",
     "Validated By": "Conor15",
     "Active": true,
-    "Updated At": "2025-09-22 09:42:24.698267306 UTC",
+    "Updated At": "2025-09-22 09:45:06.501373116 UTC",
     "Active Request ID": "9f702df3-f85e-42b5-af57-88841a2fb89e",
     "On Chain Address": "f1u7azj2ixqrkcgmip6wmc7mc5dfqd3pvcucphddy",
     "Multisig Address": "false",
@@ -67,9 +67,16 @@
       "Request Type": "Refill",
       "Created At": "2025-09-22 09:42:24.698273100 UTC",
       "Updated At": "2025-09-22 09:42:24.698274380 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "225179981368524B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Conor15",
+          "Signing Address": "f1u6pukitc37mcot546mtf5bmxml3bezve3vwiqdq",
+          "Created At": "2025-09-22 09:45:02.769000000 UTC",
+          "Message CID": "bafy2bzaceashc77h4zxa2zvaoewte5yamkago436yshasnpwjesg6iktpkbf6"
+        }
+      ]
     }
   ]
 }
