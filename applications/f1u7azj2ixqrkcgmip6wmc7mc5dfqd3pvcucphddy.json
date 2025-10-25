@@ -35,7 +35,7 @@
     "Weekly Allocation": "256TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-10-15 07:21:36.062260488 UTC",
     "Validated By": "Conor15",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "fb51cf18-7ac0-445e-ba75-8c92a1ec81cd",
     "On Chain Address": "f1u7azj2ixqrkcgmip6wmc7mc5dfqd3pvcucphddy",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
